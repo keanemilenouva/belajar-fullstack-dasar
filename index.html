@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Ken</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">KEN KEANE PROGRAMMER</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <button onclick="modeGelap()">Mode Gelap</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 id="judul-utama">Halo, Saya <span class="highlight">Ken Keane Programmer</span></h1>
+                <h2 id="deskripsiku">Seorang Calon Full Stack Developer.</h2>
+                <button id="btn-tema">Ganti Tema (Dark/Light)</button>
+                <br><br> <a href="#contact" class="btn">Hubungi Saya</a>
+            </div>
+            <div class="hero-image">
+                <img src="out.png" alt="Foto Profil Saya">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-pad">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p class="text-center"> Ahioihihihih duarr ahihihihih duarr ahihihihi duarr ahihihih duarr. ssdhshdsn DUAARRR. aHIHIHIHI dUARRR. aHIHIHIH duar. Ahihihi duarr. AHIHIHI DUYARRR. Tuliskan deskripsi singkat tentang siapa kamu, hobi kamu, dan kenapa kamu belajar coding di sini.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section-pad bg-light">
+        <div class="container">
+            <h2 class="section-title">Keahlian Saya</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Membangun struktur web semantik.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Desain responsif & Flexbox.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Learning</h3>
+                    <p>Siap belajar JavaScript segera!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-pad">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <form class="contact-form">
+                <input type="text" id="input-nama" placeholder="Nama Kamu" required>
+                <input type="email" placeholder="Email Kamu" required>
+                <textarea rows="5" placeholder="Pesan..."></textarea>
+                <button type="button" id="btn-kirim" class="btn" >Kirim Pesan</button>
+
+                <p id="teks-konfirmasi" style="margin-top: 10px; font-weight: bold;"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dibuat dengan AHIHIHIHHIHIHI DUARRR.</p>
+    </footer>
+
+    <button onclick="sapaSaya()">Klik Saya!</button>
+
+<script src="script.js"></script>
+</body>
+</html>
